@@ -45,3 +45,11 @@
 	margin-top: 20px;
 	margin-right: 80px;
 }
+
+body {
+	background-image: url(../img/fondo2.jpg);
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	background-size: 120%;
+	background-attachment: fixed;
+}
