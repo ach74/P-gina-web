@@ -38,12 +38,6 @@
 
 .content {
 	display: none;
-	position: relative;
-	float:right;
-	width: 15%;
-	height: 15%;
-	margin-top: 20px;
-	margin-right: 80px;
 }
 
 body {
@@ -52,4 +46,37 @@ body {
 	/*background-position: center;*/
 	background-size: 120%;
 	background-attachment: fixed;
+}
+
+.btn {
+	background-color: #ffff4d;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    height: 20%;
+    font-style: normal;
+}
+
+.thumbnail {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    font-style: oblique;
+}
+
+#tlf {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    width: 25%;
+    margin-top: 20px;
+}
+
+#tlf2 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    margin-top: 20px;
 }

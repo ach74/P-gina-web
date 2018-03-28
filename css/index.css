@@ -20,6 +20,13 @@
 }
 
 /*Contenido de la página, divs con las imágenes de las palas*/
+body {
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 120%;
+    background-attachment: fixed;
+}
 
 #modelos {
     position: relative;
@@ -46,17 +53,8 @@
 	width: 15%;
 	height: 15%;
 	margin-top: 20px;
-	margin-right: 80px;
+	margin-right: 60px;
 }
-
-body {
-	background-image: url(../img/fondo2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 120%;
-	background-attachment: fixed;
-}
-
 
 .btn {
 	background-color: #ffff4d;
@@ -67,5 +65,15 @@ body {
     text-decoration: none;
     width: 20%;
     height: 20%;
+    font-style: normal;
 }
 
+.thumbnail {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    font-style: oblique;
+}
+
+#tlf, #tlf2 {
+    display: none;
+}
