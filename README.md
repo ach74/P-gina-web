@@ -14,3 +14,9 @@ Cabecera
 Cuerpo
 ------------------------------------------------------------------------------------------------------------------------------------------
 ![alt text](https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/2.PNG)
+
+
+Pie de página
+------------------------------------------------------------------------------------------------------------------------------------------
+![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/6.PNG)
+
