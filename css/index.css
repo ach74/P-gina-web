@@ -1,6 +1,5 @@
 /*BRACSA - SPORT*/
 
-/*.footer {padding:50px 0 50px;margin-top:100px;color:#99979c;text-align:left;background-color:#2a2730}*/
 .footer-links{padding-left:0;margin-bottom:20px;}
 .footer-links li{display:inline-block;}
 
@@ -91,14 +90,12 @@ body {
 }
 
 #btncargar {
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: transparent;
     border: 1px solid #ffff33;
     border-radius: 10px;
     color: #ffff33;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
     width: 18%;
     height: 10%;
 }
