@@ -1,6 +1,6 @@
 /*BRACSA - SPORT*/
 
-.footer {padding:50px 0 50px;margin-top:100px;color:#99979c;text-align:left;background-color:#2a2730;}
+/*.footer {padding:50px 0 50px;margin-top:100px;color:#99979c;text-align:left;background-color:#2a2730}*/
 .footer-links{padding-left:0;margin-bottom:20px;}
 .footer-links li{display:inline-block;}
 
@@ -19,7 +19,7 @@
 	margin-top:51px;
 }
 
-/*Contenido de la página, divs con las imágenes de las palas*/
+/**********Contenido de la página, divs con las imágenes de las palas*************/
 body {
     background-image: url(../img/fondo2.jpg);
     background-repeat: repeat;
@@ -44,8 +44,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    margin-bottom: 0px;
 
+
+    padding:50px 0 50px;
+    color:#99979c;
+    text-align:left;
+    background-color:#2a2730;
+}
 .content {
 	display: inline-block;
 	position: relative;
@@ -53,7 +59,7 @@ body {
 	width: 15%;
 	height: 15%;
 	margin-top: 20px;
-	margin-right: 60px;
+	margin-right: 75px;
 }
 
 .btn {
@@ -76,4 +82,73 @@ body {
 
 #tlf, #tlf2 {
     display: none;
+}
+
+#btncargar:hover { 
+    background-color: #ffff4d;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+#btncargar {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #ffff33;
+    border-radius: 10px;
+    color: #ffff33;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 18%;
+    height: 10%;
+}
+
+/***********Apartado Noticias****************/
+
+#modelosnews1 {
+    margin-top:50px;
+    position: relative;
+    float: left;
+    width: calc(100% - 380px);
+    top: 20px;
+    left: 25px;
+}
+
+.contentnews1 {
+    margin-top:50px;
+    display: inline-block;
+    position: relative;
+    float:right;
+    width: 15%;
+    height: 15%;
+    right: 50px;
+}
+
+#tituloder {
+    margin-left:15px;
+}
+
+#tituloizq {
+    margin-right: 15px;
+}
+
+#imagen{
+    border: 1px solid #b8b894;
+    box-shadow: 5px 5px 5px grey;
+    padding: 5px 5px 5px 5px;
+    margin:10px;
+}
+
+#imagen2 {
+    padding: 5px 5px 5px 5px;
+    margin:10px;
+}
+
+#texto {
+    margin:10px;
+
+}
+
+#textocentro {
+    margin:10px; 
 }
