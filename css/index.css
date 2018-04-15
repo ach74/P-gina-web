@@ -52,13 +52,18 @@ body {
     background-color:#2a2730;
 }
 .content {
-	display: inline-block;
+	/*display: inline-block;
 	position: relative;
 	float:right;
 	width: 15%;
 	height: 15%;
 	margin-top: 20px;
-	margin-right: 75px;
+	margin-right: 80px;*/
+    position: relative;
+    float: right;
+    width: 250px;
+    top: 20px;
+    right: 55px;
 }
 
 .btn {
@@ -112,13 +117,19 @@ body {
 }
 
 .contentnews1 {
-    margin-top:50px;
+    /*margin-top:60px;
     display: inline-block;
     position: relative;
     float:right;
     width: 15%;
     height: 15%;
-    right: 50px;
+    right: 80px;*/
+
+    position: relative;
+    float: right;
+    width: 250px;
+    top: 70px;
+    right: 55px;
 }
 
 #tituloder {
@@ -141,7 +152,7 @@ body {
     margin:10px;
 }
 
-#texto {
+#textoizq {
     margin:10px;
 
 }

@@ -80,3 +80,20 @@ body {
     width: 25%;
     margin-top: 20px;
 }
+
+#btncargar:hover { 
+    background-color: #ffff4d;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+#btncargar {
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid #ffff33;
+    border-radius: 10px;
+    color: #ffff33;
+    text-decoration: none;
+    width: 18%;
+    height: 10%;
+}
