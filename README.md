@@ -11,7 +11,7 @@ Primeros bocetos, Idea inicial:
 ----------------------------------------------------------------------------------------------------------------------------------------
 Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
 <br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600" position="center">
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600">
 
 Página de noticias: Navbar, slider, 2 columnas con noticias y 1 para publicidad, footer.
 <br>
@@ -25,18 +25,16 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 <br>
 <img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/4.jpg" width="600">
 
+Primer diseño:
+----------------------------------------------------------------------------------------------------------------------------------------
 Cabecera
-------------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/1.PNG)
-
-
 Cuerpo
-------------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt text](https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/2.PNG)
-
-
 Pie de página
-------------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/6.PNG)
 
 
