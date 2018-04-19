@@ -28,13 +28,12 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 Primer diseño:
 ----------------------------------------------------------------------------------------------------------------------------------------
 Cabecera
-
 ![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/1.PNG)
+
 Cuerpo
+![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/2pc.PNG)
 
-![alt text](https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/2.PNG)
 Pie de página
-
 ![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/6.PNG)
 
 
