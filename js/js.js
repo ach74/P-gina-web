@@ -3,6 +3,7 @@
 $(document).ready(function(){
     //Llamamos a las funciones//
     $("#boton1").click(function(){goToInicio();});
+
     $("#boton2").click(function(){goToNews1();});
 });
 
@@ -15,4 +16,3 @@ function goToInicio(){
 function goToNews1(){
 	window.location.href = 'news1.html';
 }
-

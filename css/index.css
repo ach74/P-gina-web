@@ -30,9 +30,9 @@ body {
 #modelos {
     position: relative;
     float: left;
-    width: calc(100% - 380px);
+    width: calc(100% - 336px);
     top: 20px;
-    left: 25px;
+    left: 20px;
 }
 
 .footer {
@@ -63,7 +63,7 @@ body {
     float: right;
     width: 250px;
     top: 20px;
-    right: 55px;
+    right: 45px;
 }
 
 .btn {
@@ -111,9 +111,9 @@ body {
     margin-top:50px;
     position: relative;
     float: left;
-    width: calc(100% - 380px);
+    width: calc(100% - 336px);
     top: 20px;
-    left: 25px;
+    left: 20px;
 }
 
 .contentnews1 {
@@ -129,7 +129,7 @@ body {
     float: right;
     width: 250px;
     top: 70px;
-    right: 55px;
+    right: 45px;
 }
 
 #tituloder {
@@ -159,4 +159,15 @@ body {
 
 #textocentro {
     margin:10px; 
+}
+
+
+/**********Página web de publicidad*************/
+
+#fondopubli {
+    background-image: url(../img/fondopubli.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 120%;
+    background-attachment: fixed;
 }
