@@ -11,7 +11,7 @@ Primeros bocetos, Idea inicial:
 ----------------------------------------------------------------------------------------------------------------------------------------
 Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
 <br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600">
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600" position="center">
 
 Página de noticias: Navbar, slider, 2 columnas con noticias y 1 para publicidad, footer.
 <br>
