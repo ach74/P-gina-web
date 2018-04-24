@@ -104,3 +104,8 @@ body {
     filter: alpha(opacity=50);
     font-style: oblique;
 }
+
+#footerimg {
+    float: right;
+    width: 80px;
+}

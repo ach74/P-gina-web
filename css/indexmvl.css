@@ -21,6 +21,11 @@
 
 /*Contenido de la página, divs con las imágenes de las palas*/
 
+#publitlf {
+    display: inline-block;
+    position: relative;
+}
+
 #modelos {
     position: relative;
     top: 20px;
@@ -96,4 +101,9 @@ body {
     text-decoration: none;
     width: 18%;
     height: 10%;
+}
+
+#footerimg {
+    float: right;
+    width: 80px;
 }

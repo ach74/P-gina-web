@@ -27,6 +27,10 @@ body {
     background-attachment: fixed;
 }
 
+#publitlf {
+    display: none;
+}
+
 #modelos {
     position: relative;
     float: left;
@@ -103,6 +107,11 @@ body {
     text-decoration: none;
     width: 18%;
     height: 10%;
+}
+
+#footerimg {
+    float: right;
+    width: 80px;
 }
 
 /***********Apartado Noticias****************/
