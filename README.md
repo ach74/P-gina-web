@@ -41,5 +41,6 @@ UPDATES:
 
 - Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
 
-- Falta publicidad en la adaptación a teléfono + un par de detalles
+- (24/04/18)Falta publicidad en la adaptación a teléfono + un par de detalles
+- (25/04/18)Añadida carga de archivos Json con jquery.
 
