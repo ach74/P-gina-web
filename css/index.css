@@ -55,20 +55,6 @@ body {
     text-align:left;
     background-color:#2a2730;
 }
-.content {
-	/*display: inline-block;
-	position: relative;
-	float:right;
-	width: 15%;
-	height: 15%;
-	margin-top: 20px;
-	margin-right: 80px;*/
-    position: relative;
-    float: right;
-    width: 250px;
-    top: 20px;
-    right: 45px;
-}
 
 .btn {
 	background-color: #ffff4d;
@@ -114,6 +100,14 @@ body {
     width: 80px;
 }
 
+#publicidad {
+    position: relative;
+    float: right;
+    width: 250px;
+    top: 20px;
+    right: 45px;
+}
+
 /***********Apartado Noticias****************/
 
 #modelosnews1 {
@@ -125,15 +119,7 @@ body {
     left: 20px;
 }
 
-.contentnews1 {
-    /*margin-top:60px;
-    display: inline-block;
-    position: relative;
-    float:right;
-    width: 15%;
-    height: 15%;
-    right: 80px;*/
-
+#publicidad1 {
     position: relative;
     float: right;
     width: 250px;
@@ -179,4 +165,10 @@ body {
     background-position: center;
     background-size: 120%;
     background-attachment: fixed;
+}
+
+/**********IFRAME AMBAS PÁGINAS*************/
+iframe{
+    border-style: none;
+    scroll-behavior: none;
 }
