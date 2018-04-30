@@ -100,7 +100,7 @@ body {
     width: 80px;
 }
 
-#publicidad {
+.content {
     position: relative;
     float: right;
     width: 250px;
@@ -119,7 +119,7 @@ body {
     left: 20px;
 }
 
-#publicidad1 {
+.contentnews {
     position: relative;
     float: right;
     width: 250px;
@@ -168,6 +168,6 @@ body {
 }
 
 /**********IFRAME AMBAS PÁGINAS*************/
-iframe{
+iframe {
     border-style: none;
 }
