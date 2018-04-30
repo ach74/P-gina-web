@@ -105,7 +105,7 @@ body {
     float: right;
     width: 250px;
     top: 20px;
-    right: 45px;
+    right: 40px;
 }
 
 /***********Apartado Noticias****************/
@@ -124,7 +124,7 @@ body {
     float: right;
     width: 250px;
     top: 70px;
-    right: 45px;
+    right: 40px;
 }
 
 #tituloder {
@@ -170,5 +170,4 @@ body {
 /**********IFRAME AMBAS PÁGINAS*************/
 iframe{
     border-style: none;
-    scroll-behavior: none;
 }
