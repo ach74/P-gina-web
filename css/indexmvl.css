@@ -20,8 +20,6 @@
 }
 
 /*Contenido de la página, divs con las imágenes de las palas*/
-
-
 #modelos {
     position: relative;
     top: 20px;
@@ -86,4 +84,19 @@ body {
 #footerimg {
     float: right;
     width: 80px;
+}
+
+#publitlf {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+/*Publicidad superior*/
+iframe {
+    border-style: none;
+}
+
+#advertphone {
+    width: 320px;
+    height: 100px;
 }

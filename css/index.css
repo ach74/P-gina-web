@@ -158,16 +158,31 @@ body {
 
 
 /**********Página web de publicidad*************/
-
 #fondopubli {
-    background-image: url(../img/fondopubli.jpg);
+    background-image: url(../img/source.gif);
     background-repeat: repeat;
     background-position: center;
-    background-size: 120%;
+    background-size: 100%;
     background-attachment: fixed;
+}
+#bmw {
+    margin-top: 20px;
+    width: 15%;
+    height: 15%;
+}
+#titulo {
+    color: #ffffff;
+}
+#contenidopubli {
+        text-align: center;
 }
 
 /**********IFRAME AMBAS PÁGINAS*************/
 iframe {
     border-style: none;
+}
+
+#advertpc {
+    width: 250px;
+    height: 200px;
 }

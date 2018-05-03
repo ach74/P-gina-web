@@ -28,7 +28,7 @@ var numjson = 1;
 $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
         if (numjson < 4) {
-            $.getJSON("https://cdn.rawgit.com/IsmaFuentes/P-gina-web/f1596aed/json/" + numjson + ".json", function (jsonObject) {
+            $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
                 addrow(jsonObject);
             }); numjson++;
         } 
@@ -38,19 +38,17 @@ $(window).scroll(function () {
 //Cargar al usar el boton "More"
 function cargar() {
     if (numjson < 4) {
-        $.getJSON("https://cdn.rawgit.com/IsmaFuentes/P-gina-web/f1596aed/json/" + numjson + ".json", function (jsonObject) {
+        $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
             addrow(jsonObject);
         }); numjson++;
     }
 };
 
-//CAMBIAR ENLACES A RAWGIT!!
-//https://rawgit.com/IsmaFuentes/P-gina-web/master/json/
 
 //Presentación
 function addrow(json) {
     $.each(json, function (i, item) {
-        $("#modelos").append('<div class="col-sm-6 col-md-6">' +
+        $("#noticias").append('<div class="col-sm-6 col-md-6">' +
             '<div class="thumbnail">' +
             '<div class="caption">' + '<h3 class="text-center">' + item.titulo + "</h3>" + "</div>" +
             '<img src="' + item.img + '" alt="..." />' +
@@ -59,3 +57,5 @@ function addrow(json) {
             "</div>" + "</div>" + "</div>");
     })
 };
+
+
