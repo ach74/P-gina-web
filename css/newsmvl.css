@@ -99,3 +99,18 @@ body {
     float: right;
     width: 80px;
 }
+
+/*Publicidad superior*/
+#publitlf {
+    margin-top:70px;
+    margin-bottom: -5px;
+    display: block;
+}
+iframe {
+    border-style: none;
+}
+
+#advertphone {
+    width: 320px;
+    height: 100px;
+}
