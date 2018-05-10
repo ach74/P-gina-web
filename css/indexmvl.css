@@ -106,8 +106,9 @@ iframe {
     height: 100px;
 }
 
-#loadingimg {
-    width: 10%;
-    height: 10%;
-    margin-top: 20px;
+#ldn {
+    margin-top: 50%;
 }
+
+#loading{background:#000;display:none;position:fixed;top:0;right:0;
+bottom:0;left:0;opacity:0.8;z-index:1001}

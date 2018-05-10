@@ -109,12 +109,17 @@ body {
     right: 40px;
 }
 
-#loadingimg {
-    width: 10%;
-    height: 10%;
-    margin-top: 20px;
+#ldn {
+    margin-top: 15%;
 }
+#loading{background:#000;display:none;position:fixed;top:0;right:0;
+bottom:0;left:0;opacity:0.8;z-index:1001}
 
+
+/***Pointer titulo**/
+#news1, #news2 {
+    cursor: pointer;
+}
 /***********Apartado Noticias****************/
 
 #modelosnews1 {
@@ -161,11 +166,6 @@ body {
 
 #textocentro {
     margin:10px; 
-}
-
-/***Pointer titulo**/
-#news1 {
-    cursor: pointer;
 }
 
 /**********Página web de publicidad*************/

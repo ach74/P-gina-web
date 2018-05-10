@@ -27,22 +27,33 @@ var numjson = 1;
 
 //Cargar al hacer scroll//
 $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
+    if ($(window).scrollTop() + $(window).height() + 5 >= $(document).height()) {
         if (numjson < 4) {
+            //loading div show
+            $("#loading").show();
+            //carga json
             $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
                 buildrow(jsonObject);
             }); numjson++;
         }
+    } else {
+        //loading div hide
+        $("#loading").hide();
     }
 });
 
 //Cargar al usar el boton "More"//
 function cargar() {
     if (numjson < 4) {
+        //loading div show
+        $("#loading").show();
+        //carga json
         $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
             buildrow(jsonObject);
         }); numjson++;
     }
+    //loading div hide
+    $("#loading").hide();
 };
 
 
@@ -54,14 +65,15 @@ function buildrow(json) {
             '<div class="caption">' + '<h3 class="text-center">' + item.titulo + "</h3>" + "</div>" +
             '<img src="' + item.img + '" alt="..." />' +
             '<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +
-            '<button type="button" class="btn center-block">View</button' + 
+            '<button type="button" class="btn center-block">Price</button' + 
             "</div>" + "</div>" + "</div>");
     })
 };
 
-
+/*
 //Loading button//
 $(document).ajaxStart(function() {
     $("#loading").show();
 }).ajaxStop(function() {
     $("#loading").hide('slow');});
+*/
