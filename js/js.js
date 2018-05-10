@@ -30,7 +30,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
         if (numjson < 4) {
             $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
-                addrow(jsonObject);
+                buildrow(jsonObject);
             }); numjson++;
         }
     }
@@ -40,14 +40,14 @@ $(window).scroll(function () {
 function cargar() {
     if (numjson < 4) {
         $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
-            addrow(jsonObject);
+            buildrow(jsonObject);
         }); numjson++;
     }
 };
 
 
 //Presentación//
-function addrow(json) {
+function buildrow(json) {
     $.each(json, function (i, item) {
         $("#noticias").append('<div class="col-sm-6 col-md-6">' +
             '<div class="thumbnail">' +
