@@ -85,7 +85,10 @@ body {
     float: right;
     width: 80px;
 }
-
+/***Pointer titulo**/
+#news1 {
+    cursor: pointer;
+}
 
 /*Publicidad superior*/
 #publitlf {
@@ -101,4 +104,10 @@ iframe {
 #advertphone {
     width: 320px;
     height: 100px;
+}
+
+#loadingimg {
+    width: 10%;
+    height: 10%;
+    margin-top: 20px;
 }

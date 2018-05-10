@@ -74,6 +74,7 @@ body {
     font-style: oblique;
 }
 
+
 #tlf, #tlf2 {
     display: none;
 }
@@ -106,6 +107,12 @@ body {
     width: 250px;
     top: 20px;
     right: 40px;
+}
+
+#loadingimg {
+    width: 10%;
+    height: 10%;
+    margin-top: 20px;
 }
 
 /***********Apartado Noticias****************/
@@ -156,6 +163,10 @@ body {
     margin:10px; 
 }
 
+/***Pointer titulo**/
+#news1 {
+    cursor: pointer;
+}
 
 /**********Página web de publicidad*************/
 #fondopubli {

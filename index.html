@@ -118,14 +118,34 @@
                 <div class="col-sm-6 col-md-6">
                   <div class="thumbnail">
                     <div class="caption">
-                      <h3 class="text-center">Bracsa I</h3>
+                      <h3 class="text-center" id="news1">Bracsa I</h3>
+                      <p class="text-center">More about this model.</p>
                     </div>
                     <img src="img/bracai.png" class="card-img-top center-block img-responsive" alt="...">
                     <div class="caption">
                       <p class="text-justify">Brača I is the original world's first 'tear-drop' design and our most widely used paddle.</p>
                       <br>
-                      <button type="button" class="btn center-block" id="boton2">View</button>
+                      <!--<button type="button" class="btn center-block" id="news1">View</button>-->
+                      <button data-toggle="collapse" data-target="#demo" class="btn center-block">Price</button>
                       </div> 
+                      	<!--Collapse-->
+                      	<div id="demo" class="collapse">
+                      	<table class="table table-bordered">
+							<thead>
+						      <tr>
+						        <th>100% carbon</th>
+						        <th>70% carbon</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>450€</td>
+						        <td>350€</td>
+						      </tr>					      
+						    </tbody>
+						  </table>
+                      	</div>
+                      	<!--Final collapse-->
                   </div>
                 </div>
 
@@ -133,13 +153,33 @@
 	                  <div class="thumbnail">
 	                    <div class="caption">
 	                      <h3 class="text-center">Bracsa II</h3>
+	                      <p class="text-center">More about this model.</p>
 	                    </div>
 	                    <img src="img/bracaii.png" class="card-img-top center-block img-responsive" alt="...">
 	                      <div class="caption">
 	                       <p class="text-justify">Brača II is based on the Brača I design, it has increased blade pitch and provides a firmer catch.</p>
 	                       <br>
-	                       	<button type="button" class="btn center-block">View</button>
+	                       	<!--<button type="button" class="btn center-block">Price</button>-->
+	                       	<button data-toggle="collapse" data-target="#demo2" class="btn center-block">Price</button>
 	                      </div>
+		                    <!--Collapse-->
+	                      	<div id="demo2" class="collapse">
+	                      	<table class="table table-bordered">
+								<thead>
+							      <tr>
+							        <th>100% carbon</th>
+							        <th>70% carbon</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr>
+							        <td>450€</td>
+							        <td>350€</td>
+							      </tr>					      
+							    </tbody>
+							  </table>
+	                      	</div>
+	                      	<!--Final collapse-->
 	                   </div>
 	                </div>
 
@@ -152,7 +192,7 @@
                     <div class="caption">
                       <p class="text-justify">Bracsa XI is the newest model, the blade has a special shape that facilitates a powerful catch.</p>
                       <br>
-                      <button type="button" class="btn center-block">View</button>
+                      <button type="button" class="btn center-block">Price</button>
                       </div>
                   </div>
                 </div>
@@ -166,7 +206,7 @@
                     <div class="caption">
                       <p class="text-justify">Brača III is a 'parallel-edge model and it's the preferred paddle of lighter male athletes.</p>
                       <br>
-                      <button type="button" class="btn center-block">View</button>
+                      <button type="button" class="btn center-block">Price</button>
                       </div>
                   </div>
                 </div>
@@ -174,8 +214,8 @@
 	            </div>                    
                </div>
                <button type="button" class="btn btn-primary center-block" id="btncargar">More</button>
+               <div id="loading" class="container-fluid"><img src="img/loading.gif" id="loadingimg" class="center-block"></div>
             </div>
-
 
 		<!--Pie de página/footer-->
 		<footer id="piedepagina" class="footer">

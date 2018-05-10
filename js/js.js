@@ -1,11 +1,14 @@
 //Al cargar la página//
 $(document).ready(function(){
-    //Llamamos a las funciones//
+    //Botones//
     $("#boton1").click(function(){goToInicio();});
 
-    $("#boton2").click(function(){goToNews1();});
+    $("#news1").click(function(){goToNews1();});
 
     $("#btncargar").click(function(){cargar();});
+
+    //Escondemos el div con el loading button//
+    $('#loading').hide();
 
 });
 
@@ -19,23 +22,21 @@ function goToNews1(){
 }
 
 
-
-
-//Carga de archivos JSON
+//Carga de archivos JSON//
 var numjson = 1;
 
-//Cargar al hacer scroll
+//Cargar al hacer scroll//
 $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
         if (numjson < 4) {
             $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
                 addrow(jsonObject);
             }); numjson++;
-        } 
+        }
     }
 });
 
-//Cargar al usar el boton "More"
+//Cargar al usar el boton "More"//
 function cargar() {
     if (numjson < 4) {
         $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
@@ -45,7 +46,7 @@ function cargar() {
 };
 
 
-//Presentación
+//Presentación//
 function addrow(json) {
     $.each(json, function (i, item) {
         $("#noticias").append('<div class="col-sm-6 col-md-6">' +
@@ -59,3 +60,8 @@ function addrow(json) {
 };
 
 
+//Loading button//
+$(document).ajaxStart(function() {
+    $("#loading").show();
+}).ajaxStop(function() {
+    $("#loading").hide('slow');});
