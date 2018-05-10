@@ -1,10 +1,12 @@
 # Página-web
 
 Página web Bootstrap + Jquery:
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Nueva versión.
 
 probar la página:
-https://rawgit.com/IsmaFuentes/P-gina-web/master/home.html
+https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 
 Primeros bocetos, Idea inicial:
@@ -44,4 +46,5 @@ UPDATES:
 - (24/04/18) Falta publicidad en la adaptación a teléfono + un par de detalles
 - (25/04/18) Añadida carga de archivos Json con jquery.
 - (03/05/18) Añadida publicidad en la adaptación a teléfono, solucionado error de plantilla (las noticias cargaban debajo del botón de cargar), página de publicidad modificada.
+- (10/05/18) Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar.
 
