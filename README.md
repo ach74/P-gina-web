@@ -7,6 +7,9 @@ probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 
+<img src="https://image.freepik.com/iconos-gratis/flecha-hacia-abajo-lineal_318-25366.jpg" width="600">
+
+
 Primeros bocetos, Idea inicial:
 ----------------------------------------------------------------------------------------------------------------------------------------
 Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
