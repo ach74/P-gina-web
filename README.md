@@ -33,7 +33,7 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 Modificaciones/Actualizaciones:
 
 - Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
-<iframe src="https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html" width="200" height="200"></iframe>
+
 
 (24/04/18)
 - Falta publicidad en la adaptación a teléfono + un par de detalles
@@ -42,9 +42,9 @@ Modificaciones/Actualizaciones:
 - Añadida carga de archivos Json con jquery, 3 json de 2 noticias cada uno.
 
 (03/05/18) 
-- Añadida publicidad en la adaptación a teléfono.
+- Añadida publicidad en la adaptación a teléfono (mismo iframe que en la versión de pc pero situado en la parte superior y con dimensiones actualizadas).
 - Solucionado error de plantilla (las noticias cargaban debajo del botón de cargar).
-- Página de publicidad modificada.
+- Página de publicidad modificada (Publicidad de coches BMW | España).
 
 (10/05/18)
 - Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar. 
