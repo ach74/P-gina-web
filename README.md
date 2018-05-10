@@ -6,7 +6,7 @@ Nueva versión.
 probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 Modificaciones/Actualizaciones:
 
 
