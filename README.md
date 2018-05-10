@@ -1,7 +1,11 @@
 # Página-web
 
 Página web Bootstrap + Jquery:
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Esta es la versión inicial de la página, la versión final está en una nueva rama:
+https://github.com/IsmaFuentes/P-gina-web/tree/v.final
+
 
 probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/master/home.html
