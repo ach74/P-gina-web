@@ -89,7 +89,7 @@ $(document).ajaxStart(function() {
 }).ajaxStop(function() {
     $("#loading").hide('slow');});
 ```
-- <img src="https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/v.final/img/loading.gif" width="50px">
+- Icono de carga: <img src="https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/v.final/img/loading.gif" width="50px">
 
 - Modificado el botón de view de las noticias, ahora se llama "price" y muestra precios, para entrar en la noticia ahora pulsamos sobre el título.
 
