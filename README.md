@@ -9,6 +9,45 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 ----------------------------------------------------------------------------------------------------------------------------------------
 Modificaciones/Actualizaciones:
 
+UPDATE(11/05/18)
+- Ahora el loading no se muestra debajo del boton de carga, sino que cuando aparece ocupa toda la pantalla.
+- He modificado varias lineas de código para implementar la pantalla de carga, la función que hice anteriormente ya no la uso.
+```ruby
+//Cargar al hacer scroll//
+$(window).scroll(function () {
+    if ($(window).scrollTop() + $(window).height() + 5 >= $(document).height()) {
+        if (numjson < 4) {
+            //loading div show
+            $("#loading").show();
+            //carga json
+            $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+                buildrow(jsonObject);
+            }); numjson++;
+        }
+    } else {
+        //loading div hide
+        $("#loading").hide();
+    }
+});
+```
+```ruby
+//Cargar al usar el boton "More"//
+function cargar() {
+    if (numjson < 4) {
+        //loading div show
+        $("#loading").show();
+        //carga json
+        $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+            buildrow(jsonObject);
+        }); numjson++;
+    }
+    //loading div hide
+    $("#loading").hide();
+};
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 UPDATE(10/05/18)
 - Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar, mediante una función jquery (ajax). 
 ```ruby
