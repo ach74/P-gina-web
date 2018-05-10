@@ -9,33 +9,24 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 ----------------------------------------------------------------------------------------------------------------------------------------
 Modificaciones/Actualizaciones:
 
+UPDATE(10/05/18)
+- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar, mediante una función jquery (ajax). 
+```ruby
+$(document).ajaxStart(function() {
+    $("#loading").show();
+}).ajaxStop(function() {
+    $("#loading").hide('slow');});
+```
+- Icono de carga: <img src="https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/v.final/img/loading.gif" width="50px">
 
-----------------------------------------------------------------------------------------------------------------------------------------
-Primeros bocetos, Idea inicial:
-----------------------------------------------------------------------------------------------------------------------------------------
-Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
-<br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600">
-
-Página de noticias: Navbar, slider, 2 columnas con noticias y 1 para publicidad, footer.
-<br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/2.jpg" width="600">
-
-Noticia: Misma estructura, sin el slider y con una sola columna para el contenido de la noticia.
-<br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/3.jpg" width="600">
-
-Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima del contenido, contenido en una sola columna y footer.
-<br>
-<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/4.jpg" width="600">
+- Modificado el botón de view de las noticias, ahora se llama "price" y muestra precios, para entrar en la noticia ahora pulsamos sobre el título.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------
+UPDATE(03/05/18) 
+- Añadida publicidad en la adaptación a teléfono (mismo iframe que en la versión de pc pero situado en la parte superior y con dimensiones actualizadas).
+- Solucionado error de plantilla (las noticias cargaban debajo del botón de cargar).
+- Página de publicidad modificada (Publicidad de coches BMW | España).
 
-- Página de presentación con vídeo de fondo y un botón que nos lleva a la página de noticias:
-https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
-
-- Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
 
 UPDATE(25/04/18) 
 - Añadida carga de archivos Json con jquery, 3 json de 2 noticias cada uno (con botón de carga y al hacer scroll).
@@ -76,22 +67,40 @@ function buildrow(json) {
 };
 ```
 
-UPDATE(03/05/18) 
-- Añadida publicidad en la adaptación a teléfono (mismo iframe que en la versión de pc pero situado en la parte superior y con dimensiones actualizadas).
-- Solucionado error de plantilla (las noticias cargaban debajo del botón de cargar).
-- Página de publicidad modificada (Publicidad de coches BMW | España).
+- Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
 
-UPDATE(10/05/18)
-- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar, mediante una función jquery (ajax). 
-```ruby
-$(document).ajaxStart(function() {
-    $("#loading").show();
-}).ajaxStop(function() {
-    $("#loading").hide('slow');});
-```
-- Icono de carga: <img src="https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/v.final/img/loading.gif" width="50px">
+- Página de presentación con vídeo de fondo y un botón que nos lleva a la página de noticias:
+https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
-- Modificado el botón de view de las noticias, ahora se llama "price" y muestra precios, para entrar en la noticia ahora pulsamos sobre el título.
+----------------------------------------------------------------------------------------------------------------------------------------
+Primeros bocetos, Idea inicial:
+----------------------------------------------------------------------------------------------------------------------------------------
+Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
+<br>
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/1.jpg" width="600">
+
+Página de noticias: Navbar, slider, 2 columnas con noticias y 1 para publicidad, footer.
+<br>
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/2.jpg" width="600">
+
+Noticia: Misma estructura, sin el slider y con una sola columna para el contenido de la noticia.
+<br>
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/3.jpg" width="600">
+
+Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima del contenido, contenido en una sola columna y footer.
+<br>
+<img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/4.jpg" width="600">
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 
