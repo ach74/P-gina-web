@@ -32,6 +32,9 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 
 Modificaciones/Actualizaciones:
 
+- Página de presentación con vídeo de fondo y un botón que nos lleva a la página de noticias:
+https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
+
 - Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
 
 
