@@ -27,21 +27,13 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 <br>
 <img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/4.jpg" width="600">
 
-Primer diseño:
+
 ----------------------------------------------------------------------------------------------------------------------------------------
-Cabecera
-![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/1.PNG)
 
-Cuerpo
-![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/2pc.PNG)
-
-Pie de página
-![alt text](https://rawgit.com/IsmaFuentes/P-gina-web/master/capturas%20pweb/6.PNG)
-
-
-UPDATES:
+Modificaciones/Actualizaciones:
 
 - Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
+<iframe src="https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html" width="200" height="200"></iframe>
 
 (24/04/18)
 - Falta publicidad en la adaptación a teléfono + un par de detalles
