@@ -7,7 +7,7 @@ probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 
-<img src="https://image.freepik.com/iconos-gratis/flecha-hacia-abajo-lineal_318-25366.jpg" width="600">
+<img src="https://image.freepik.com/iconos-gratis/flecha-hacia-abajo-lineal_318-25366.jpg" width="100px">
 
 
 Primeros bocetos, Idea inicial:
