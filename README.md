@@ -47,8 +47,13 @@ Modificaciones/Actualizaciones:
 - Página de publicidad modificada (Publicidad de coches BMW | España).
 
 (10/05/18)
-- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar. 
+- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar mediante una función jquery (ajax). 
+$(document).ajaxStart(function() {
+    $("#loading").show();
+}).ajaxStop(function() {
+    $("#loading").hide('slow');});
 <img src="https://raw.githubusercontent.com/IsmaFuentes/P-gina-web/v.final/img/loading.gif" width="50px">
+
 - Modificado el botón de view de las noticias, ahora se llama "price" y muestra precios, para entrar en la noticia ahora pulsamos sobre el título.
 
 
