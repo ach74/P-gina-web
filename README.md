@@ -39,7 +39,29 @@ Modificaciones/Actualizaciones:
 - Falta publicidad en la adaptación a teléfono + un par de detalles
 
 (25/04/18) 
-- Añadida carga de archivos Json con jquery, 3 json de 2 noticias cada uno.
+- Añadida carga de archivos Json con jquery, 3 json de 2 noticias cada uno (con botón de carga y al hacer scroll).
+```ruby
+//Cargar al hacer scroll//
+$(window).scroll(function () {
+    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
+        if (numjson < 4) {
+            $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+                addrow(jsonObject);
+            }); numjson++;
+        }
+    }
+});
+```
+```ruby
+//Cargar al usar el boton "More"//
+function cargar() {
+    if (numjson < 4) {
+        $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+            addrow(jsonObject);
+        }); numjson++;
+    }
+};
+```
 
 (03/05/18) 
 - Añadida publicidad en la adaptación a teléfono (mismo iframe que en la versión de pc pero situado en la parte superior y con dimensiones actualizadas).
