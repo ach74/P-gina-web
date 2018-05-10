@@ -1,6 +1,4 @@
-# Página-web
-
-Página web Bootstrap + Jquery:
+# Página web Bootstrap + Jquery:
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Nueva versión.
@@ -82,7 +80,7 @@ UPDATE(03/05/18)
 - Página de publicidad modificada (Publicidad de coches BMW | España).
 
 UPDATE(10/05/18)
-- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar mediante una función jquery (ajax). 
+- Añadido icono de carga que se muestra cuando los ficheros json tardan en cargar, mediante una función jquery (ajax). 
 ```ruby
 $(document).ajaxStart(function() {
     $("#loading").show();
