@@ -7,7 +7,7 @@ probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-Modificaciones/Actualizaciones:
+# CHANGELOG:
 
 UPDATE(11/05/18)
 - Ahora el loading no se muestra debajo del boton de carga, sino que cuando aparece ocupa toda la pantalla.
