@@ -21,12 +21,14 @@ $(document).ajaxStart(function() {
 
 - Modificado el botón de view de las noticias, ahora se llama "price" y muestra precios, para entrar en la noticia ahora pulsamos sobre el título.
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(03/05/18) 
 - Añadida publicidad en la adaptación a teléfono (mismo iframe que en la versión de pc pero situado en la parte superior y con dimensiones actualizadas).
 - Solucionado error de plantilla (las noticias cargaban debajo del botón de cargar).
 - Página de publicidad modificada (Publicidad de coches BMW | España).
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(25/04/18) 
 - Añadida carga de archivos Json con jquery, 3 json de 2 noticias cada uno (con botón de carga y al hacer scroll).
@@ -67,10 +69,14 @@ function buildrow(json) {
 };
 ```
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+PRIMEROS UPDATES
 - Publicidad añadida en el lado derecho de la página (336px segun las medidas de google), se trata de un "IFRAME" que muestra una página de publicidad creada por mi:  https://rawgit.com/IsmaFuentes/P-gina-web/master/publi.html
 
 - Página de presentación con vídeo de fondo y un botón que nos lleva a la página de noticias:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Primeros bocetos, Idea inicial:
@@ -92,7 +98,7 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 <img src="https://github.com/IsmaFuentes/P-gina-web/blob/master/capturas%20pweb/4.jpg" width="600">
 
 
-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
