@@ -7,7 +7,7 @@ probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 
-
+Modificaciones/Actualizaciones:
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -31,8 +31,6 @@ Adaptación a telefono: Navbar desplegable, slider, publicidad situada encima de
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
-Modificaciones/Actualizaciones:
 
 - Página de presentación con vídeo de fondo y un botón que nos lleva a la página de noticias:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
