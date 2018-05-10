@@ -118,7 +118,7 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-Primeros bocetos, Idea inicial:
+# Primeros bocetos, Idea inicial:
 ----------------------------------------------------------------------------------------------------------------------------------------
 Página de inicio: Contendrá un logo, un título y un botón que nos llevará a la página de noticias. El fondo es un vídeo.
 <br>
