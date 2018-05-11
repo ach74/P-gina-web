@@ -10,6 +10,8 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 # CHANGELOG:
 
 UPDATE(11/05/18)
+- Solucionado error de plantilla en la versión móvil. En la adaptación a Iphone 5 el div de publicidad descuadraba parte de la página.
+(con un padding: 0px se ha solucionado)
 - Ahora el loading no se muestra debajo del boton de carga, sino que cuando aparece ocupa toda la pantalla.
 - He modificado varias lineas de código para implementar la pantalla de carga, la función que hice anteriormente ya no la uso.
 ```ruby
