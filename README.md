@@ -18,7 +18,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 5 >= $(document).height()) {
         if (numjson < 4) {
             //loading div show
-            $("#loading").show();
+            $("#loading").fadeIn();
             //carga json
             $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
                 buildrow(jsonObject);
@@ -26,7 +26,7 @@ $(window).scroll(function () {
         }
     } else {
         //loading div hide
-        $("#loading").hide();
+        $("#loading").fadeOut();
     }
 });
 ```
@@ -35,14 +35,14 @@ $(window).scroll(function () {
 function cargar() {
     if (numjson < 4) {
         //loading div show
-        $("#loading").show();
+        $("#loading").fadeIn();
         //carga json
         $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
             buildrow(jsonObject);
         }); numjson++;
     }
     //loading div hide
-    $("#loading").hide();
+    $("#loading").fadeOut();
 };
 ```
 
