@@ -24,11 +24,10 @@ $(window).scroll(function () {
             //carga json
             $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
                 buildrow(jsonObject);
+                //loading div hide
+                $("#loading").fadeOut();
             }); numjson++;
         }
-    } else {
-        //loading div hide
-        $("#loading").fadeOut();
     }
 });
 ```
