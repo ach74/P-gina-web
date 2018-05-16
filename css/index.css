@@ -115,6 +115,14 @@ body {
 #loading{background:#000;display:none;position:fixed;top:0;right:0;
 bottom:0;left:0;opacity:0.8;z-index:1001}
 
+#autoscroll {
+    margin-top: 12px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffff4d;
+    background-color: #ffff4d;
+}
+
 
 /***Pointer titulo**/
 #news1, #news2 {
