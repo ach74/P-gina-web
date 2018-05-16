@@ -9,6 +9,20 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 ----------------------------------------------------------------------------------------------------------------------------------------
 # CHANGELOG:
 
+UPDATE(16/05/18)
+- Añadido botón en el navbar 'autoscroll' que activa i desactiva la carga de archivos json con scroll.
+```ruby
+function activateScroll(){
+    if (scrolling){
+        scrolling = false;
+        $('#autoscroll').text('Autoscroll: OFF');
+    }else {
+        scrolling = true;
+        $('#autoscroll').text('Autoscroll: ON ');  
+    }
+}
+```
+
 UPDATE(11/05/18)
 - Solucionado error de plantilla en la versión móvil. En la adaptación a Iphone 5 el div de publicidad descuadraba parte de la página.
 (con un padding: 0px se ha solucionado)
