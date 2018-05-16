@@ -10,7 +10,7 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 # CHANGELOG:
 
 UPDATE(16/05/18)
-- Añadido botón en el navbar 'autoscroll' que activa i desactiva la carga de archivos json con scroll.
+- Añadido botón en la barra de navegación, que activa y desactiva la carga de archivos json con scroll.
 ```ruby
 function activateScroll(){
     if (scrolling){
