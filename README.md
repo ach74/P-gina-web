@@ -18,10 +18,10 @@ UPDATE(16/05/18)
 function activateScroll(){
     if (scrolling){
         scrolling = false;
-        $('#autoscroll').text('Autoscroll: OFF');
+        $('#autoscroll').text('Scroll: OFF');
     }else {
         scrolling = true;
-        $('#autoscroll').text('Autoscroll: ON ');  
+        $('#autoscroll').text('Scroll: ON ');  
     }
 }
 ```
