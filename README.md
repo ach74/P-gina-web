@@ -7,13 +7,13 @@ probar la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-# CHANGELOG:
+# Cambios y actualizaciones:
 UPDATE(17/05/18)
 - Solucionados varios errores de validación + algunos detalles estéticos
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(16/05/18)
-- Añadido botón en la barra de navegación, que activa y desactiva la carga de archivos json con scroll.
+- Añadido botón en la parte derecha del navbar, que activa y desactiva la carga de archivos json con scroll.
 ```ruby
 function activateScroll(){
     if (scrolling){
