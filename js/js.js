@@ -30,10 +30,10 @@ var scrolling = true;
 function activateScroll(){
     if (scrolling){
         scrolling = false;
-        $('#autoscroll').text('Autoscroll: OFF');
+        $('#autoscroll').text('Scroll: OFF');
     }else {
         scrolling = true;
-        $('#autoscroll').text('Autoscroll: ON ');  
+        $('#autoscroll').text('Scroll: ON ');  
     }
 }
 
@@ -87,10 +87,4 @@ function buildrow(json) {
 };
 
 
-/*
-//Loading button//
-$(document).ajaxStart(function() {
-    $("#loading").show();
-}).ajaxStop(function() {
-    $("#loading").hide('slow');});
-*/
+

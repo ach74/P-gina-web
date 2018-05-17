@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.boton {
+/*.boton {
     text-align: center; 
     line-height: 55px;
     margin: auto;
@@ -28,7 +28,8 @@
     width: 18%;
     height: 10%;
     text-decoration:none;
-}
+    outline: none;
+}*/
 
 body {
     background-image: url(../img/metal.jpg);
@@ -51,6 +52,7 @@ body {
     display: inline-block;
     width: 18%;
     height: 10%;
+    outline: none;
 }
 
 #titulo {
