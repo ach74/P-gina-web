@@ -5,6 +5,8 @@ $(document).ready(function(){
 
     $("#news1").click(function(){goToNews1();});
 
+    $("#news2").click(function(){goToNews2();});
+
     $("#btncargar").click(function(){cargar();});
 
     //Escondemos el div con el loading button//
@@ -24,6 +26,9 @@ function goToNews1(){
 	window.location.href = 'news1.html';
 }
 
+function goToNews2(){
+    window.location.href = 'news2.html';
+}
 //Activar - Desactivar scroll//
 var scrolling = true;
 
