@@ -6,7 +6,13 @@
 		<title>Bracsa - Sport</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--<link rel="stylesheet" href="css/index.css">-->
+		<!--Propiedades compartir página-->
+		<meta property="og:site_name" content="Bracsa - Professional Paddles">
+		<meta property="og:url" content="https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html">
+		<meta property="og:title" content="Bracsa">
+		<meta property="og:image" content="img/compartir.jpg">
+		<meta property="og:description" content="Bracsa - Official website and on-line shop">
+		<!--Fin Propiedades compartir página-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -16,8 +22,8 @@
 	</head>
 
 	<body>
-
-		<!--Cabecera/barra de navegación-->
+		<div id="loading"><img src="img/loading.gif" alt="..." class="center-block text-center" id="ldn"></div>
+		<!--Cabecera/navbar-->
 		<nav id="barra" class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -35,13 +41,13 @@
 		        <li><a href="#">Athletes</a></li> 
 		        <li><a href="#">Contact us</a></li> 
 		      </ul>
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		      </ul>
+		      <div class="nav navbar-nav navbar-right">
+				<button id="autoscroll">Scroll: ON</button>
+		      </div>
 		    </div>
 		  </div>
 		</nav>
+		<!--Final navbar-->
 
 		<!--Carousel slider-->
 		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -54,7 +60,7 @@
 
 		    <!-- Deslizar -->
 		    <div class="carousel-inner" role="listbox">
-
+		    <!--IMG 1-->
 		      <div class="item active">
 		        <img src="img/canoe2.png" class="img-responsive center-block" alt="bracsai">
 		        <div class="carousel-caption">
@@ -62,7 +68,7 @@
 		          	<p>Designed for traditional kayaking</p>
 		        </div>
 		      </div>
-
+		    <!--IMG 2-->
 		      <div class="item">
 		        <img src="img/bracsar.png" alt="paddle" class="img-responsive center-block">
 		        <div class="carousel-caption">
@@ -70,7 +76,7 @@
 		          <p>Provides a more efficient catch</p>
 		        </div>
 		      </div>
-		    
+		    <!--IMG 3-->
 		      <div class="item">
 		        <img src="img/canoe3.png" alt="canoe" class="img-responsive center-block">
 		        <div class="carousel-caption">
@@ -81,7 +87,7 @@
 		  
 		    </div>
 
-		    <!-- controles derecha/izquierda -->
+		    <!--controles derecha/izquierda-->
 		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		      <span class="sr-only">Previous</span>
@@ -91,6 +97,7 @@
 		      <span class="sr-only">Next</span>
 		    </a>
 		  </div>
+		  <!--Final Carousel slider-->
 		
 
 		<!--Contenido principal de la página-->
@@ -98,51 +105,90 @@
 		<!--Publicidad superior smartphone-->
 	    <div class="container-fluid center-block" id="publitlf">
 			<iframe id='advertphone' name='paginapublicidad' src='publi.html' class="center-block">
-				<!--width="320" height="100"-->
 			</iframe>
        	</div>
 
 		<!--Publicidad lado derecho PC-->
 	    <div class="content">
 			<iframe id='advertpc' name='paginapublicidad' src='publi.html'>
-				 <!--width="250" height="200"-->
 			</iframe>
        	</div>
-
 
        	<!--Noticias-->
     	  <div id="modelos">
             <div class="container-fluid">
-              <div class="row contenido" id="noticias">
 
+              <div class="row contenido" id="noticias1">
                 <div class="col-sm-6 col-md-6">
                   <div class="thumbnail">
-                    <div class="caption">
+                    <div class="caption" id="news1">
                       <h3 class="text-center">Bracsa I</h3>
+                      <p class="text-center">More about this model.</p>
                     </div>
                     <img src="img/bracai.png" class="card-img-top center-block img-responsive" alt="...">
                     <div class="caption">
                       <p class="text-justify">Brača I is the original world's first 'tear-drop' design and our most widely used paddle.</p>
                       <br>
-                      <button type="button" class="btn center-block" id="boton2">View</button>
+                      <!--<button type="button" class="btn center-block" id="news1">View</button>-->
+                      <button data-toggle="collapse" data-target="#demo" class="btn center-block">Price</button>
                       </div> 
+                      	<!--Collapse-->
+                      	<div id="demo" class="collapse">
+                      	<table class="table table-bordered">
+							<thead>
+						      <tr>
+						        <th>100% carbon</th>
+						        <th>70% carbon</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>450€</td>
+						        <td>350€</td>
+						      </tr>					      
+						    </tbody>
+						  </table>
+                      	</div>
+                      	<!--Final collapse-->
                   </div>
                 </div>
 
 	                <div class="col-sm-6 col-md-6">
 	                  <div class="thumbnail">
-	                    <div class="caption">
+	                    <div class="caption" id="news2">
 	                      <h3 class="text-center">Bracsa II</h3>
+	                      <p class="text-center">More about this model.</p>
 	                    </div>
 	                    <img src="img/bracaii.png" class="card-img-top center-block img-responsive" alt="...">
 	                      <div class="caption">
 	                       <p class="text-justify">Brača II is based on the Brača I design, it has increased blade pitch and provides a firmer catch.</p>
 	                       <br>
-	                       	<button type="button" class="btn center-block">View</button>
+	                       	<!--<button type="button" class="btn center-block">Price</button>-->
+	                       	<button data-toggle="collapse" data-target="#demo2" class="btn center-block">Price</button>
 	                      </div>
+		                    <!--Collapse-->
+	                      	<div id="demo2" class="collapse">
+	                      	<table class="table table-bordered">
+								<thead>
+							      <tr>
+							        <th>100% carbon</th>
+							        <th>70% carbon</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr>
+							        <td>450€</td>
+							        <td>350€</td>
+							      </tr>					      
+							    </tbody>
+							  </table>
+	                      	</div>
+	                      	<!--Final collapse-->
 	                   </div>
 	                </div>
+	              </div>
 
+			  <div class="row contenido" id="noticias">
                 <div class="col-sm-6 col-md-6">
                   <div class="thumbnail">
                     <div class="caption">
@@ -152,7 +198,7 @@
                     <div class="caption">
                       <p class="text-justify">Bracsa XI is the newest model, the blade has a special shape that facilitates a powerful catch.</p>
                       <br>
-                      <button type="button" class="btn center-block">View</button>
+                      <button type="button" class="btn center-block">Price</button>
                       </div>
                   </div>
                 </div>
@@ -166,7 +212,7 @@
                     <div class="caption">
                       <p class="text-justify">Brača III is a 'parallel-edge model and it's the preferred paddle of lighter male athletes.</p>
                       <br>
-                      <button type="button" class="btn center-block">View</button>
+                      <button type="button" class="btn center-block">Price</button>
                       </div>
                   </div>
                 </div>
@@ -174,20 +220,18 @@
 	            </div>                    
                </div>
                <button type="button" class="btn btn-primary center-block" id="btncargar">More</button>
+               <!--<div id="loading" class="container-fluid"><img src="img/loading.gif" id="loadingimg" class="center-block"></div>-->
             </div>
 
 
 		<!--Pie de página/footer-->
 		<footer id="piedepagina" class="footer">
 		    <div class="container"> 
-		    <img src="img/satisfaction.png" class="img-circle" alt="the-brains" id="footerimg">
-		        <ul class="footer-links"> 
-		            <li>Facebook</li> 
-		            <li>Twitter</li> 
-		        </ul> 
-		        <p>Copyright 2018 | Bracsa - Professional paddles
-		        </p> 
-
+		    <img src="img/satisfaction.png" class="img-circle" alt="..." id="footerimg">
+		        <div id="footer-links">
+		        	<img src="img/icons.png" class="img-circle" id="icons" alt="...">
+		        </div>
+		        <p>Copyright 2018 | Bracsa - Professional paddles</p> 
     		</div> 
 		</footer>
 	</body>
