@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<modelos>
+
+    <modelo>
+        <titulo>Bracsa I</titulo>
+        <descripcion>Brača I is the original world's first 'tear-drop' design and our most widely used paddle.</descripcion>
+        <img>../img/bracai.png</img>
+        <pubDate>17/05/2018</pubDate>
+        <enlace>../news1.html</enlace>
+    </modelo>
+
+    <modelo>
+        <titulo>Bracsa II</titulo>
+        <descripcion>Brača II is based on the Brača I design, it has increased blade pitch and provides a firmer catch.</descripcion>
+        <img>../img/bracaii.png</img>
+        <pubDate>17/05/2018</pubDate>
+        <enlace>../news2.html</enlace>
+    </modelo>
+
+</modelos>
+
+</rss>
