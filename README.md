@@ -8,6 +8,9 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # CHANGELOG:
+UPDATE(17/05/18)
+- Solucionados varios errores de validación + algunos detalles estéticos
+----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(16/05/18)
 - Añadido botón en la barra de navegación, que activa y desactiva la carga de archivos json con scroll.
@@ -22,6 +25,7 @@ function activateScroll(){
     }
 }
 ```
+----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(11/05/18)
 - Solucionado error de plantilla en la versión móvil. En la adaptación a Iphone 5 el div de publicidad descuadraba parte de la página.
