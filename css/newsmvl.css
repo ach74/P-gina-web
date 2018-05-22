@@ -47,6 +47,11 @@ body {
 }
 /***********Apartado Noticias****************/
 
+#icons {
+    margin-top: 10px;
+    width: 150px;
+}
+
 #modelosnews1 {
     position: relative;
     top: 25px;

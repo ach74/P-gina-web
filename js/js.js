@@ -12,7 +12,7 @@ $(document).ready(function(){
     //Escondemos el div con el loading button//
     $('#loading').hide();
 
-    //botón activar - desactivar scroll
+    //botón activar - desactivar scroll//
     $('#autoscroll').click(function(){activateScroll();});
 
 });
@@ -29,6 +29,7 @@ function goToNews1(){
 function goToNews2(){
     window.location.href = 'news2.html';
 }
+
 //Activar - Desactivar scroll//
 var scrolling = true;
 

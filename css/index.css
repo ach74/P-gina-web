@@ -123,9 +123,19 @@ bottom:0;left:0;opacity:0.8;z-index:1001}
     cursor: pointer;
 }
 
+#news1:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.10);
+}
+
+#news2:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.10);
+}
+
 #icons {
-    width: 80px;
-    float: right;
+    margin-top: 10px;
+    width: 150px;
 }
 /***********Apartado Noticias****************/
 
