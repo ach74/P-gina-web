@@ -54,7 +54,7 @@ $(window).scroll(function () {
                 //loading div show
                 $("#loading").fadeIn();
                 //carga json
-                $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+                $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/v.final/json/" + numjson + ".json", function (jsonObject) {
                     buildrow(jsonObject);
                     //loading div hide
                     $("#loading").fadeOut();
@@ -70,7 +70,7 @@ function cargar() {
         //loading div show
         $("#loading").fadeIn();
         //carga json
-        $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/master/json/" + numjson + ".json", function (jsonObject) {
+        $.getJSON("https://rawgit.com/IsmaFuentes/P-gina-web/v.final/json/" + numjson + ".json", function (jsonObject) {
             buildrow(jsonObject);
             //loading div hide
             $("#loading").fadeOut();
