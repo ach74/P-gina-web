@@ -8,6 +8,11 @@ https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Cambios y actualizaciones:
+
+UPDATE(23/05/18)
+- Añadida fecha de publicación en las noticias, título más descriptivo y descripción inicial más elaborada.
+----------------------------------------------------------------------------------------------------------------------------------------
+
 UPDATE(17/05/18)
 - Solucionados varios errores de validación + algunos detalles estéticos
 ----------------------------------------------------------------------------------------------------------------------------------------
