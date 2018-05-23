@@ -84,7 +84,9 @@ function buildrow(json) {
     $.each(json, function (i, item) {
         $("#noticias").append('<div class="col-sm-6 col-md-6">' +
             '<div class="thumbnail">' +
-            '<div class="caption">' + '<h3 class="text-center">' + item.titulo + "</h3>" + "</div>" +
+            '<div class="caption">' + '<h3 class="text-center">' + item.titulo + "</h3>" + 
+            '<p class="text-center">Under construction</p>' +
+            "</div>" +
             '<img src="' + item.img + '" alt="..." />' +
             '<div class="caption">' + 
             '<p class="date">' + item.date + "</p>" +
