@@ -87,7 +87,7 @@ function buildrow(json) {
             '<div class="caption">' + '<h3 class="text-center">' + item.titulo + "</h3>" + "</div>" +
             '<img src="' + item.img + '" alt="..." />' +
             '<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +
-            '<button type="button" class="btn center-block">Price</button' + 
+            '<button type="button" class="btn center-block">Price</button>' + 
             "</div>" + "</div>" + "</div>");
     })
 };
