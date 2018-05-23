@@ -1,9 +1,11 @@
 [{
-	"titulo": "Bracsa VIII",
-	"descripcion": "Facilitates a softer catch and generation of smooth, precise and consistent strokes.",
+	"titulo": "Flatwater paddle: Bracsa VIII",
+	"date": "21/5/2018",
+	"descripcion": "Brača VIII is based on the latest innovative blade concept. It was designed and engineered to facilitate a softer catch and generation of smooth, precise and consistent strokes.",
 	"img": "img/bracaviii.png"
 }, {
-	"titulo": "Bracsa IX",
-	"descripcion": "Combines the best characteristics from multiple paddle designs into one hybrid model.",
+	"titulo": "Flatwater paddle: Bracsa IX",
+	"date": "2/6/2018",
+	"descripcion": "Brača IX is engineered using advanced kinetic, bio-mechanical and material science concepts to combine the best characteristics from multiple paddle designs into one hybrid model.",
 	"img": "img/bracaix.png"
 }]

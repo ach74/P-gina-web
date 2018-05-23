@@ -1,9 +1,11 @@
 [{
-	"titulo": "Bracsa VI",
-	"descripcion": "Designed with a more extreme 'tear-drop' shape, which facilitates a very powerful catch.",
+	"titulo": "Flatwater paddle: Bracsa VI",
+	"date": "21/6/2017",
+	"descripcion": "Brača VI is designed with a more extreme 'tear-drop' shape, which facilitates a very powerful catch, with a maximized working blade area.",
 	"img": "img/bracavi.png"
 }, {
-	"titulo": "Bracsa VII",
-	"descripcion": "Designed with a more extreme 'tear-drop' shape, which facilitates a very powerful catch.",
+	"titulo": "Flatwater paddle: Bracsa VII",
+	"date": "12/4/2017",
+	"descripcion": "Bracsa VII has the same construction and properties of the Bracsa VI, but designed for strong female athletes and younger males",
 	"img": "img/bracavii.png"
 }]
