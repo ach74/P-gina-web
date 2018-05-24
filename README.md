@@ -4,7 +4,7 @@
 Versión final minificada.
 
 Link de la página:
-https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
+https://rawgit.com/IsmaFuentes/P-gina-web/v.minify/home.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Cambios y actualizaciones:
