@@ -1,7 +1,7 @@
 # Página web Bootstrap + Jquery:
 
 
-Versión final.
+Versión final minificada.
 
 Link de la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
