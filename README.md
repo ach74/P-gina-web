@@ -6,8 +6,15 @@ Versión final.
 Link de la página:
 https://rawgit.com/IsmaFuentes/P-gina-web/v.final/home.html
 
+Versión minificada:
+https://rawgit.com/IsmaFuentes/P-gina-web/v.minify/home.html
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Cambios y actualizaciones:
+
+UPDATE(24/05/18)
+- Añadida versión minificada del proyecto.
+----------------------------------------------------------------------------------------------------------------------------------------
 
 UPDATE(23/05/18)
 - Añadida fecha de publicación en las noticias, título más descriptivo y descripción inicial más elaborada.
